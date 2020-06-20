@@ -1,0 +1,107 @@
+* {padding:0; margin:0}
+.navbar {
+	float:left;
+	background: #ffb142;
+	width: 100%;
+}
+
+.navbar li {
+	float: left;
+	list-style:none;
+}
+
+.navbar li a {
+	color: #FFFFFF;
+	text-decoration:none;
+	padding:20px;
+	display:block;
+	font-weight:bold;
+}
+
+.navbar li a:hover {
+	background:#FFFFFF;
+	color:#000000;
+}
+
+.center ul {
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+	width: fit-content;
+	margin: auto;
+}
+
+.top-wrapper {
+	padding: 180px 0 100px 0;
+	background-image: url('images/jadi-ikon-kuliner-indonesia-penjual-soto-diberi-lapak-khusus-180414o.jpg') ;
+	background-size: cover;
+	color:#f7f1e3;
+	text-align:left;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.top-wrapper h1 {
+	opacity: 0.7;
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+
+.btn-wrapper {
+	margin: 20px 0;
+}
+
+.signup {
+	background-color: #239b76;
+}
+
+.btn {
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+body{
+	font-family: Florence, cursive;
+}
+
+.lesson-wrapper {
+	height: 500px;
+	padding-bottom: 80px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.heading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+	color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: normal;
+}
+
+.lesson {
+	float:left;
+	width: 25%;
+}
+
+.lesson-icon {
+	position: relative;
+}
+
+.lesson-icon p {
+	position:absolute;
+	top: 90px;
+	width: 100%;
+	color: white;
+}
