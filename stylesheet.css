@@ -90,6 +90,10 @@ body{
 	font-weight: normal;
 }
 
+.heading h3 {
+	font-weight: normal;
+}
+
 .lesson {
 	float:left;
 	width: 25%;
