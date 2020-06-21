@@ -63,11 +63,12 @@ body{
 .heading {
 	padding-top: 60px;
 	padding-bottom: 30px;
-	color: #000000;
+	color: #5f5d60;
 }
 
 .heading h2 {
 	font-weight: normal;
+	color: black;
 }
 
 .heading h3 {
