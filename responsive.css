@@ -20,7 +20,7 @@
    
    @media all and (max-width: 670px) {
    
-       .header-right {
+       .navbar {
           display: none;
        }
   
@@ -34,7 +34,7 @@
           text-align:left;
        }
   
-       .top-wrapper p {
+       .top-wrapper h2 {
           font-size: 14px;
           line-height: 20px;
        }
@@ -46,10 +46,6 @@
   
        .btn {
           width:100%;
-       }
-  
-       .facebook {
-          margin-bottom: 10px;
        }
   
        .lesson {
