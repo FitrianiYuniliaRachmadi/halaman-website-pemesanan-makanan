@@ -3,6 +3,7 @@
 	float:left;
 	background: #d35400;
 	width: 100%;
+	position :fixed;
 }
 
 .navbar li {
