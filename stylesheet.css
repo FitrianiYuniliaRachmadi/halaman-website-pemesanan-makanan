@@ -8,6 +8,10 @@
   	z-index: 10;
 }
 
+navbar img {
+	width:125px;
+	float:left;
+}
 .navbar li {
 	float: left;
 	list-style:none;
