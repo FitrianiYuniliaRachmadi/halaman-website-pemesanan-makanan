@@ -86,6 +86,13 @@ body{
 	position: relative;
 }
 
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
 .txt-contents {            
 	width: 80%;            
 	display: inline-block;            
