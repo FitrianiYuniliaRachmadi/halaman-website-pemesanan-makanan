@@ -1,5 +1,6 @@
 * {padding:0; margin:0}
 .navbar {
+	background-image: url ("logo.jpg");
 	float:left;
 	background: #d35400;
 	width: 100%;
@@ -8,10 +9,6 @@
   	z-index: 10;
 }
 
-navbar img {
-	width:125px;
-	float:left;
-}
 .navbar li {
 	float: left;
 	list-style:none;
