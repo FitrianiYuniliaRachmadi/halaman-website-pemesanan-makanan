@@ -3,15 +3,28 @@
 	margin: 0
 }
 
+.header-logo {
+	float: left;
+	position: absolute;
+	padding: 20px 20px;
+	font-weight: bold;
+}
+
 .navbar {
 	float: left;
 	background: #ffb142;
 	width: 100%;
+	/* position: fixed; */
 }
 
 .navbar li {
 	float: left;
 	list-style: none;
+}
+
+.navbar-right {
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
 }
 
 .navbar li a {
@@ -51,6 +64,7 @@
 	opacity: 0.7;
 	font-size: 45px;
 	margin-bottom: 10px;
+	letter-spacing: 5px;
 }
 
 .btn-wrapper {
@@ -93,12 +107,18 @@ body {
 
 .heading h2 {
 	font-weight: normal;
+	font-size: 38px;
 }
 
 .menus {
 	float: left;
 	width: 100%;
 	padding-top: 8%;
+}
+
+.menu {
+	width: 25%;
+	float: left;
 }
 
 .menu-icon {
@@ -108,7 +128,7 @@ body {
 .menu-icon p {
 	/* position: absolute; */
 	top: 90px;
-	width: 100%;
+	/* width: 100%; */
 	color: #5f5d60;
 }
 
