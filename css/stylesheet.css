@@ -1,26 +1,30 @@
-* {padding:0; margin:0}
+* {
+	padding: 0;
+	margin: 0
+}
+
 .navbar {
-	float:left;
+	float: left;
 	background: #ffb142;
 	width: 100%;
 }
 
 .navbar li {
 	float: left;
-	list-style:none;
+	list-style: none;
 }
 
 .navbar li a {
 	color: #FFFFFF;
-	text-decoration:none;
-	padding:20px;
-	display:block;
-	font-weight:bold;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	font-weight: bold;
 }
 
 .navbar li a:hover {
-	background:#FFFFFF;
-	color:#000000;
+	background: #FFFFFF;
+	color: #000000;
 }
 
 .center ul {
@@ -32,10 +36,10 @@
 
 .top-wrapper {
 	padding: 180px 0 100px 0;
-	background-image: url('images/jadi-ikon-kuliner-indonesia-penjual-soto-diberi-lapak-khusus-180414o.jpg') ;
+	background-image: url('../images/top.jpg');
 	background-size: cover;
-	color:#f7f1e3;
-	text-align:left;
+	color: #f7f1e3;
+	text-align: left;
 }
 
 .container {
@@ -63,17 +67,18 @@
 	display: inline-block;
 	opacity: 0.8;
 	border-radius: 4px;
+	text-decoration: none;
 }
 
 .btn:hover {
 	opacity: 1;
 }
 
-body{
+body {
 	font-family: Florence, cursive;
 }
 
-.lesson-wrapper {
+.menu-wrapper {
 	height: 500px;
 	padding-bottom: 80px;
 	background-color: #f7f7f7;
@@ -90,20 +95,21 @@ body{
 	font-weight: normal;
 }
 
-.lesson {
-	float:left;
-	width: 25%;
+.menus {
+	float: left;
+	width: 100%;
+	padding-top: 8%;
 }
 
-.lesson-icon {
+.menu-icon {
 	position: relative;
 }
 
-.lesson-icon p {
-	position:absolute;
+.menu-icon p {
+	/* position: absolute; */
 	top: 90px;
 	width: 100%;
-	color: white;
+	color: #5f5d60;
 }
 
 .message {
@@ -119,16 +125,16 @@ body{
 
 
 .heading h1 {
-	font-weight:normal;
+	font-weight: normal;
 }
 
-.lesson {
-	float:left;
-	width:25%;
+.menu {
+	float: left;
+	width: 25%;
 }
 
 .heading h2 {
-	font-weight:normal;
+	font-weight: normal;
 }
 
 .message-wrapper {
@@ -146,7 +152,7 @@ body{
 
 
 .message:active {
-	position:relative;
+	position: relative;
 	top: 7px;
 	box-shadow: none;
 }
@@ -161,5 +167,5 @@ footer p {
 }
 
 footer {
-	padding-top:30px;
+	padding-top: 30px;
 }
