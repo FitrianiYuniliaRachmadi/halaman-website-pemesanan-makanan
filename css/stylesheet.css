@@ -3,6 +3,14 @@
 	margin: 0
 }
 
+.header {
+	height: 65px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+}
+
 .header-logo {
 	float: left;
 	position: absolute;
@@ -187,5 +195,24 @@ footer p {
 }
 
 footer {
-	padding-top: 30px;
+	height: 150px;
+	background-color: #ecf0f1;
+
+
+}
+
+.footer-logo {
+	float: left;
+	width: 125px;
+	padding: 50px 30px;
+}
+
+.footer-list {
+	float: right;
+
+}
+
+.footer-list li {
+	padding: 12px 20px;
+	list-style: none;
 }
