@@ -65,8 +65,9 @@
 }
 
 .container {
-	width: 1170px;
+	width: 100%;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .top-wrapper h1 {
@@ -239,5 +240,10 @@ footer {
 @media(max-width:670px) {
 	.menu {
 		width: 100%;
+
+	}
+
+	footer {
+		text-align: center;
 	}
 }
