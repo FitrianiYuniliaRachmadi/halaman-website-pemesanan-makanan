@@ -26,7 +26,6 @@
 	color:#000000;
 }
 
-.header-logo {
 	.header-logo img {
 		float:left;
 		position:absolute;
@@ -34,10 +33,7 @@
 		font-weight: bold;
 		width: 80px;
 	}
-
-}
-
-
+	
 .center ul {
 	width: -moz-fit-content;
 	width: -webkit-fit-content;
