@@ -1,6 +1,7 @@
 * {
 	padding: 0;
-	margin: 0
+	margin: 0;
+	box-sizing: border-box;
 }
 
 .header {
@@ -101,7 +102,7 @@ body {
 }
 
 .menu-wrapper {
-	height: 500px;
+	/* height: 500px; */
 	padding-bottom: 80px;
 	background-color: #f7f7f7;
 	text-align: center;
@@ -122,11 +123,18 @@ body {
 	float: left;
 	width: 100%;
 	padding-top: 8%;
+	/* background-color: #239b76; */
 }
 
 .menu {
 	width: 25%;
 	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.clear {
+	clear: left;
 }
 
 .menu-icon {
@@ -136,8 +144,9 @@ body {
 .menu-icon p {
 	/* position: absolute; */
 	top: 90px;
-	/* width: 100%; */
+	width: 100%;
 	color: #5f5d60;
+	/* top: 44%; */
 }
 
 .message {
@@ -215,4 +224,20 @@ footer {
 .footer-list li {
 	padding: 12px 20px;
 	list-style: none;
+}
+
+/* untuk tablet */
+@media(max-width:1000px) {
+	.menu {
+		width: 50%;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+}
+
+/* untuk smartphone */
+@media(max-width:670px) {
+	.menu {
+		width: 100%;
+	}
 }
