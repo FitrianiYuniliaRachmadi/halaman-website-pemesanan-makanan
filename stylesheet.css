@@ -26,13 +26,12 @@
 	color:#000000;
 }
 
-	.header-logo img {
-		float:left;
-		position:absolute;
-		padding: 20px 20px;
-		font-weight: bold;
-		width: 80px;
-	}
+.header-logo img {
+	float:left;
+	position:absolute;
+	padding: 20px 20px;
+	width: 80px;
+}
 	
 .center ul {
 	width: -moz-fit-content;
