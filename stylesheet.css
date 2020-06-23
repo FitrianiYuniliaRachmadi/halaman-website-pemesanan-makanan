@@ -193,9 +193,10 @@ footer {
 }
 
 .footer-list {
-	float:right;
+	float: right;
 }
 
 .footer-list li {
 	padding-bottom: 20px;
+	float: right;
 }
