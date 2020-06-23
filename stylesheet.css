@@ -172,11 +172,13 @@ body{
 
 footer img {
 	width: 125px;
+	padding-top: 30px;
 }
 
 footer p {
 	color: #b3aeb5;
 	font-size: 12px;
+	padding-top: 30px;
 }
 
 footer {
