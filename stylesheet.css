@@ -170,7 +170,7 @@ body{
   	opacity: 1;
 }
 
-footer img {
+footer-img {
 	width: 125px;
 }
 
@@ -195,6 +195,6 @@ footer {
 	float: right;
 }
 
-.footer-list li {
+.footer-list p {
 	padding-bottom: 20px;
 }
