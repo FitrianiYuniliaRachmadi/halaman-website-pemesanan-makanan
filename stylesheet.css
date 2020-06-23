@@ -94,10 +94,10 @@ body{
 }
 
 .lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
+  	position: absolute;
+  	top: 44%;
+  	width: 100%;
+  	color: white;
 }
 
 .txt-contents {            
