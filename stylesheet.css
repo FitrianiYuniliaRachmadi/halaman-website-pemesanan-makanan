@@ -180,7 +180,8 @@ footer p {
 }
 
 footer {
-	padding-top:30px;
+	height: 120px;
+	padding-top:40px;
 }
 
 .menu-icon {
@@ -188,7 +189,7 @@ footer {
   	float: right;
   	font-size: 25px;
   	padding: 21px 0;
-  	display: none !important;
+  	display: none;
 }
 
 .footer-list {
