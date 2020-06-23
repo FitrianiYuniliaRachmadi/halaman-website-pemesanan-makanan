@@ -59,7 +59,7 @@
 }
 
 body{
-	font-family: Florence, cursive;
+	font-family: cursive;
 }
 
 .lesson-wrapper {
@@ -181,7 +181,7 @@ footer p {
 
 footer {
 	height: 120px;
-	padding: 40px;
+	padding: 20px;
 }
 
 .menu-icon {
@@ -197,5 +197,5 @@ footer {
 }
 
 .footer-list li {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
