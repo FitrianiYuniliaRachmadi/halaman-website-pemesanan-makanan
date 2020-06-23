@@ -26,13 +26,10 @@
 	color:#000000;
 }
 
-.header-logo {
-	float:left;
-}
-
 .logo {
 	width: 124px;
   	margin-top: 20px;
+	float:left;
 }
 	
 .center ul {
