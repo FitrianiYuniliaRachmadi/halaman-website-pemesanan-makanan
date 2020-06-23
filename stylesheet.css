@@ -172,18 +172,16 @@ body{
 
 footer img {
 	width: 125px;
-	padding-top: 30px;
 }
 
 footer p {
 	color: #b3aeb5;
 	font-size: 12px;
-	padding-top: 30px;
 }
 
 footer {
 	height: 100px;
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 .menu-icon {
