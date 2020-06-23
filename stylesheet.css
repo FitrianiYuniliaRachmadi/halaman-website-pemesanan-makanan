@@ -184,6 +184,10 @@ footer {
 	padding: 30px;
 }
 
+.footer-right p {
+	float: right;
+}
+
 .menu-icon {
   	color: white;
   	float: right;
