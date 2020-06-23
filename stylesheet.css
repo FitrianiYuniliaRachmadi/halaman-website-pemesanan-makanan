@@ -28,9 +28,8 @@
 
 .logo {
 	width: 80px;
-  	padding: 20px 20px;
+  	margin-top: 20px;
 	float:left;
-	position:absolute;
 }
 	
 .center ul {
